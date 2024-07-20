@@ -1,0 +1,38 @@
+﻿
+ @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@model WebAppLab4.Models.EmployeeModel
+
+<form asp-controller="Employee" asp-action="Create" method="post">
+    <div>
+        <label asp-for="EmpId"></label>
+        <input asp-for="EmpId"/>
+        <span asp-validation-for="EmpId" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Name"></label>
+        <input asp-for="Name"/>
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Email"></label>
+        <input asp-for="Email"/>
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label>Gender:</label><br />
+        
+            <input type="radio" asp-for="Gender" value="Male" />
+            <label>Male</label>
+
+            <input type="radio" asp-for="Gender" value="Female" />
+            <label>Female</label>
+
+        <span asp-validation-for="Gender" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add Employee</button>
+</form>

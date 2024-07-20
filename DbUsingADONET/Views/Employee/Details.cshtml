@@ -1,0 +1,42 @@
+﻿@model DbUsingADONET.Models.Employee
+
+@{
+    ViewData["Title"] = "Employee Details";
+}
+
+<h2>Employee Details</h2>
+
+<div>
+    <h4>Employee</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Employee ID
+        </dt>
+        <dd class="col-sm-10">
+            @Model.EmployeeId
+        </dd>
+        <dt class="col-sm-2">
+            First Name
+        </dt>
+        <dd class="col-sm-10">
+            @Model.FirstName
+        </dd>
+        <dt class="col-sm-2">
+            Last Name
+        </dt>
+        <dd class="col-sm-10">
+            @Model.LastName
+        </dd>
+        <dt class="col-sm-2">
+            Department ID
+        </dt>
+        <dd class="col-sm-10">
+            @Model.DepartmentId
+        </dd>
+
+    </dl>
+</div>
+<div>
+    <a href="@Url.Action("Index")" class="btn btn-secondary">Back to List</a>
+</div>

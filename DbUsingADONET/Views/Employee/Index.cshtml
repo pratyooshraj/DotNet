@@ -1,0 +1,38 @@
+﻿@model IEnumerable<DbUsingADONET.Models.Employee>
+@* @{
+    ViewData["Title"] = "Employees";
+}
+ *@
+<h2>Employees</h2>
+
+
+<p>@Html.ActionLink("Add New Employee", "Create")</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Employee ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>DepartmentID</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.EmployeeId</td>
+                <td>@item.FirstName</td>
+                <td>@item.LastName</td>
+                <td>@item.DepartmentId</td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.EmployeeId}) |
+                    @Html.ActionLink("Details", "Details", new { id = item.EmployeeId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.EmployeeId })
+                    
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

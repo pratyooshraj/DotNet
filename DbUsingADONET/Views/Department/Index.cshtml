@@ -1,0 +1,35 @@
+@model IEnumerable<DbUsingADONET.Models.Department>
+
+@{
+    ViewData["Title"] = "Departments";
+}
+
+<h2>Departments</h2>
+
+<p>
+    <a href="@Url.Action("Create")" class="btn btn-primary">Create New Department</a>
+
+</p>
+<p>@Html.ActionLink("Add New Department", "Create")</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.DepartmentName</td>
+                <td>
+                    <a href="@Url.Action("Edit", new { id = item.DepartmentId })" class="btn btn-secondary">Edit</a> |
+                    <a href="@Url.Action("Details", new { id = item.DepartmentId })" class="btn btn-info">Details</a> |
+                    <a href="@Url.Action("Delete", new { id = item.DepartmentId })" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

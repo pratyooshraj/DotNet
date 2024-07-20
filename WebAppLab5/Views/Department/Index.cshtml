@@ -1,0 +1,28 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model List<DepartmentModel>
+@{
+    ViewBag.Title = "Department List";
+}
+<h2>Department List</h2>
+<p>@Html.ActionLink("Add New Department", "Create")</p>
+<table class="table">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Description</th>
+    </tr>
+    @foreach (var department in Model)
+    {
+        <tr>
+            <td>@department.DepId</td>
+            <td>@department.Name</td>
+            <td>@department.Description</td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = department.DepId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = department.DepId })
+            </td>
+        </tr>
+    }
+</table>

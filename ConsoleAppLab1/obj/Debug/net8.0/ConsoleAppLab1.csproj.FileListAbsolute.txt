@@ -1,0 +1,14 @@
+C:\Users\ACER\Desktop\6th sem\C#\ConsoleAppLab1\bin\Debug\net8.0\ConsoleAppLab1.exe
+C:\Users\ACER\Desktop\6th sem\C#\ConsoleAppLab1\bin\Debug\net8.0\ConsoleAppLab1.deps.json
+C:\Users\ACER\Desktop\6th sem\C#\ConsoleAppLab1\bin\Debug\net8.0\ConsoleAppLab1.runtimeconfig.json
+C:\Users\ACER\Desktop\6th sem\C#\ConsoleAppLab1\bin\Debug\net8.0\ConsoleAppLab1.dll
+C:\Users\ACER\Desktop\6th sem\C#\ConsoleAppLab1\bin\Debug\net8.0\ConsoleAppLab1.pdb
+C:\Users\ACER\Desktop\6th sem\C#\ConsoleAppLab1\obj\Debug\net8.0\ConsoleAppLab1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Desktop\6th sem\C#\ConsoleAppLab1\obj\Debug\net8.0\ConsoleAppLab1.AssemblyInfoInputs.cache
+C:\Users\ACER\Desktop\6th sem\C#\ConsoleAppLab1\obj\Debug\net8.0\ConsoleAppLab1.AssemblyInfo.cs
+C:\Users\ACER\Desktop\6th sem\C#\ConsoleAppLab1\obj\Debug\net8.0\ConsoleAppLab1.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\6th sem\C#\ConsoleAppLab1\obj\Debug\net8.0\ConsoleAppLab1.dll
+C:\Users\ACER\Desktop\6th sem\C#\ConsoleAppLab1\obj\Debug\net8.0\refint\ConsoleAppLab1.dll
+C:\Users\ACER\Desktop\6th sem\C#\ConsoleAppLab1\obj\Debug\net8.0\ConsoleAppLab1.pdb
+C:\Users\ACER\Desktop\6th sem\C#\ConsoleAppLab1\obj\Debug\net8.0\ConsoleAppLab1.genruntimeconfig.cache
+C:\Users\ACER\Desktop\6th sem\C#\ConsoleAppLab1\obj\Debug\net8.0\ref\ConsoleAppLab1.dll
