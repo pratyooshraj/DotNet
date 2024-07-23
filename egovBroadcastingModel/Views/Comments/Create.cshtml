@@ -1,7 +1,7 @@
 ﻿@model egovBroadcastingModel.Models.Comment
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Create Comment";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -32,6 +32,7 @@
                 <label asp-for="DisasterNoticeId" class="control-label"></label>
                 <select asp-for="DisasterNoticeId" class ="form-control" asp-items="ViewBag.DisasterNoticeId"></select>
             </div>
+            @* <input type="hidden" asp-for="DisasterNoticeId" value="@ViewBag.DisasterNoticeId" /> *@
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
@@ -40,7 +41,9 @@
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-controller="DisasterNotices" asp-action="Index">Back to List</a>
+    @* <a asp-action="Details" asp-controller="DisasterNotices" asp-route-id="@ViewBag.DisasterNoticeId">Back to Notice</a> *@
+
 </div>
 
 @section Scripts {

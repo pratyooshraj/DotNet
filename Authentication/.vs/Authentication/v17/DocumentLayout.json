@@ -54,8 +54,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-20T09:59:13.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T09:59:13.395Z"
             },
             {
               "$type": "Document",
@@ -65,7 +64,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\ACER\\Desktop\\6th sem\\C#\\Authentication\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABgAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAqwBYAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-20T08:53:41.979Z",
               "EditorCaption": ""
@@ -80,8 +79,7 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "ViewState": "AQIAAEwAAAAAAAAAAAApwFkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T09:32:59.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T09:32:59.896Z"
             },
             {
               "$type": "Document",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-20T09:31:03.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T09:31:03.372Z"
             },
             {
               "$type": "Document",
@@ -106,8 +103,7 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T09:30:44.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T09:30:44.466Z"
             },
             {
               "$type": "Document",
@@ -119,8 +115,7 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "ViewState": "AQIAAHAAAAAAAAAAAAAAwH8AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T09:11:46.981Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T09:11:46.981Z"
             },
             {
               "$type": "Document",
@@ -132,8 +127,7 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\_AuthLayout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-20T09:05:08.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T09:05:08.96Z"
             },
             {
               "$type": "Document",
@@ -145,8 +139,7 @@
               "RelativeToolTip": "Areas\\Identity\\Data\\AppUser.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T09:00:14.331Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T09:00:14.331Z"
             }
           ]
         }

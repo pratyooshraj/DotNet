@@ -168,6 +168,47 @@ namespace egovBroadcastingModel.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        //[Authorize(Roles = "admin, client")]
+        public IActionResult Filter()
+        {
+            // Populate the dropdown with distinct disaster types
+            var disasterTypes = _context.DisasterNotices
+        .Select(d => d.DisasterType)
+        .Distinct()
+        .ToList();
+            
+            ViewBag.DisasterTypes = new SelectList(disasterTypes);
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Filter(string disasterType)
+        {
+            //Console.WriteLine($"Received disasterType: {disasterType}");
+            var disasterTypes = _context.DisasterNotices
+                .Select(d => d.DisasterType)
+                .Distinct()
+                .ToList();
+
+            ViewBag.DisasterTypes = new SelectList(disasterTypes);
+
+            //if (string.IsNullOrEmpty(disasterType))
+            //{
+            //    return View(_context.DisasterNotices.ToList());
+            //}
+
+            //var trimmedDisasterType = disasterType?.Trim();
+            //var disasters = _context.DisasterNotices
+            //    .Where(d => d.DisasterType == trimmedDisasterType)
+            //    .ToList();
+
+            var disasters = _context.DisasterNotices
+         .Where(d => d.DisasterType == disasterType)
+         .ToList();
+            //Console.WriteLine($"Number of disasters found: {disasters.Count}");
+            return View(disasters);
+        }
+
         private bool DisasterNoticeExists(int id)
         {
             return _context.DisasterNotices.Any(e => e.Id == id);

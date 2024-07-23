@@ -2,8 +2,15 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
+<div class="text-center justify-content-center">
+    <div class="container d-flex justify-content-center align-items-center">
+        <div class="col-5 mt-5">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
     <p>User Id=@ViewData["UserId"]</p>
+    <p class=""> 
+        The Disaster Notice System is a cutting-edge platform designed to provide timely and accurate alerts about natural and man-made disasters. Our system leverages advanced technology to disseminate crucial information swiftly, helping communities prepare for and respond to emergencies. Whether it's a hurricane, earthquake, wildfire, or industrial accident, the Disaster Notice System ensures that you stay informed and safe with real-time updates and actionable advice.
+    </p>
+    <a href="@Url.Action("Index", "DisasterNotices")" class="btn btn-primary">View Latest Notices</a>
+    </div>
+</div>
 </div>

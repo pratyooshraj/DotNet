@@ -34,6 +34,8 @@
                 <select asp-for="DisasterNoticeId" class="form-control" asp-items="ViewBag.DisasterNoticeId"></select>
                 <span asp-validation-for="DisasterNoticeId" class="text-danger"></span>
             </div>
+            @* <input type="hidden" asp-for="DisasterNoticeId" value="@ViewBag.DisasterNoticeId" /> *@
+
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>
@@ -42,7 +44,9 @@
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    @* <a asp-action="Details" asp-controller="DisasterNotice" asp-route-id="@ViewBag.DisasterNoticeId">Back to Notice</a> *@
+
+    <a asp-controller="DisasterNotices" asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {

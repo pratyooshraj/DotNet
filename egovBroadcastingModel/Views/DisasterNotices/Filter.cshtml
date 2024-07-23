@@ -1,0 +1,53 @@
+﻿@model IEnumerable<DisasterNotice>
+@{
+    ViewData["Title"] = "Filter Disasters by Type";
+}
+
+<h1>Filter Disasters by Type</h1>
+
+<form asp-action="Filter" method="post">
+    <div class="form-group">
+        <label for="disasterType">Select Disaster Type:</label>
+        @* <select id="disasterType" name="disasterType" class="form-control">
+            <option value="">-- Select Disaster Type --</option>
+            @foreach (var type in (IEnumerable<SelectListItem>)ViewBag.DisasterTypes)
+            {
+                <option value="@type.Value">@type.Text</option>
+            }
+        </select> *@
+        <input type="text" name="disasterType" value="" />
+    </div>
+    <button type="submit" class="btn btn-primary">Filter</button>
+</form>
+@* && Model.Any() *@
+@if (Model != null && Model.Any())
+{
+    <h2>Filtered Disasters</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Event Date</th>
+                <th>Location</th>
+                <th>Severity</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var disaster in Model)
+            {
+                <tr>
+                    <td>@disaster.Title</td>
+                    <td>@disaster.Description</td>
+                    <td>@disaster.EventDateTime.ToString("g")</td>
+                    <td>@disaster.Location</td>
+                    <td>@disaster.Severity</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+ }
+else
+{
+    <p>No disasters found for the selected type.</p>
+}

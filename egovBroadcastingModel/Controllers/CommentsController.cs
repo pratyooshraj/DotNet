@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using egovBroadcastingModel.Data;
 using egovBroadcastingModel.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace egovBroadcastingModel.Controllers
 {
@@ -19,6 +20,7 @@ namespace egovBroadcastingModel.Controllers
             _context = context;
         }
 
+        [Authorize(Roles ="admin")]
         // GET: Comments
         public async Task<IActionResult> Index()
         {
@@ -62,11 +64,14 @@ namespace egovBroadcastingModel.Controllers
             //if (ModelState.IsValid)
             //{
                 _context.Add(comment);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-           // }
-           // ViewData["DisasterNoticeId"] = new SelectList(_context.DisasterNotices, "Id", "Description", comment.DisasterNoticeId);
-           // return View(comment);
+               
+            await _context.SaveChangesAsync();
+            return RedirectToAction("Details", "DisasterNotices", new { id = comment.DisasterNoticeId });
+
+            //   return RedirectToAction(nameof(Index));
+            // }
+            // ViewData["DisasterNoticeId"] = new SelectList(_context.DisasterNotices, "Id", "Description", comment.DisasterNoticeId);
+            // return View(comment);
         }
 
         // GET: Comments/Edit/5
@@ -116,7 +121,9 @@ namespace egovBroadcastingModel.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+            return RedirectToAction("Details", "DisasterNotices", new { id = comment.DisasterNoticeId });
+
+//            return RedirectToAction(nameof(Index));
            // }
            // ViewData["DisasterNoticeId"] = new SelectList(_context.DisasterNotices, "Id", "Description", comment.DisasterNoticeId);
            // return View(comment);
@@ -153,7 +160,9 @@ namespace egovBroadcastingModel.Controllers
             }
 
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction("Details", "DisasterNotices", new { id = comment.DisasterNoticeId });
+
+//            return RedirectToAction(nameof(Index));
         }
 
         private bool CommentExists(int id)

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("egovBroadcastingModel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d757698150b5c8883dd83c9ca0af1ddaf28eddc9")]
 [assembly: System.Reflection.AssemblyProductAttribute("egovBroadcastingModel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("egovBroadcastingModel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
