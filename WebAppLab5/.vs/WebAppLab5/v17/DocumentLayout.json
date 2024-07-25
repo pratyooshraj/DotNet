@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{F160E5F0-B6D8-475D-888F-875D2F328D0F}|WebAppLab5.csproj|c:\\users\\acer\\desktop\\6th sem\\c#\\webapplab5\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F160E5F0-B6D8-475D-888F-875D2F328D0F}|WebAppLab5.csproj|solutionrelative:repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F160E5F0-B6D8-475D-888F-875D2F328D0F}|WebAppLab5.csproj|c:\\users\\acer\\desktop\\6th sem\\c#\\webapplab5\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F160E5F0-B6D8-475D-888F-875D2F328D0F}|WebAppLab5.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F160E5F0-B6D8-475D-888F-875D2F328D0F}|WebAppLab5.csproj|c:\\users\\acer\\desktop\\6th sem\\c#\\webapplab5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F160E5F0-B6D8-475D-888F-875D2F328D0F}|WebAppLab5.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\6th sem\\C#\\WebAppLab5\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\6th sem\\C#\\WebAppLab5\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T22:38:23.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\6th sem\\C#\\WebAppLab5\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\6th sem\\C#\\WebAppLab5\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T22:36:12.643Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +57,7 @@
               "RelativeDocumentMoniker": "Repository\\EmployeeRepository.cs",
               "ToolTip": "C:\\Users\\ACER\\Desktop\\6th sem\\C#\\WebAppLab5\\Repository\\EmployeeRepository.cs",
               "RelativeToolTip": "Repository\\EmployeeRepository.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAzwAwAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-15T10:29:27.127Z",
               "EditorCaption": ""
